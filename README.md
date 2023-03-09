@@ -7,3 +7,9 @@
 ![image](https://user-images.githubusercontent.com/105464154/223887419-bc1e0c2e-d025-4906-8afd-fef55dea6139.png)
 
 <a href = "https://github.com/YurijKryshtof0222/OOPJavaL2/blob/master/src/Laba1/Main.java">Код до 1 лабораторної</a>
+
+<h3>Скріншоти демонстрації програм</h3>
+
+<h2>До 2-ої лабораторної</h2>
+
+![image](https://user-images.githubusercontent.com/105464154/223888484-3331f2dc-0a53-4d4d-88c4-7a32c15549d7.png)
