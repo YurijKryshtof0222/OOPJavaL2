@@ -1,15 +1,32 @@
-package Laba3;
+package laba3_4;
 
 public class Rectangle implements Shape {
     private double a;
     private double b;
 
+    {
+        a = 8;
+        a = 6;
+    }
+
+    public Rectangle() {}
+
+    public Rectangle(double a) {
+        this(a, a);
+    }
+
     public Rectangle(double a, double b) {
-        if (a <= 0 || b <= 0)
-            throw new IllegalArgumentException();
+        validate(a, b);
 
         this.a = a;
         this.b = b;
+    }
+
+    protected void validate(double... args) {
+        for (double d: args) {
+            if (d <= 0)
+                throw new IllegalArgumentException();
+        }
     }
 
     @Override
@@ -17,13 +34,17 @@ public class Rectangle implements Shape {
         return a * b;
     }
 
+    @Override
+    public double getPerimeter() {
+        return 2*a + 2*b;
+    }
+
     public double getA() {
         return a;
     }
 
     public void setA(double a) {
-        if (a <= 0)
-            throw new IllegalArgumentException();
+        validate(a);
         this.a = a;
     }
 
@@ -32,8 +53,7 @@ public class Rectangle implements Shape {
     }
 
     public void setB(double b) {
-        if (a <= 0)
-            throw new IllegalArgumentException();
+        validate(b);
 
         this.b = b;
     }
