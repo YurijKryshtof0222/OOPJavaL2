@@ -8,7 +8,6 @@ public class Main {
             Scanner sc = new Scanner(System.in);
             Shape rectangle, triangle;
 
-            System.out.println("Пишіть дробову частину через кому");
             System.out.print("Введіть значення довжини та ширини прямокутника(вводити через пробіл): ");
             rectangle = new Rectangle(sc.nextDouble(), sc.nextDouble());
 
