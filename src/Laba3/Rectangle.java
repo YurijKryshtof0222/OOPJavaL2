@@ -1,4 +1,4 @@
-package Laba2;
+package Laba3;
 
 public class Rectangle implements Shape {
     private double a;

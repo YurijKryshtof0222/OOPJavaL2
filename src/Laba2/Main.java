@@ -1,25 +1,27 @@
 package Laba2;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        try {
-            Scanner sc = new Scanner(System.in);
-            Shape rectangle, triangle;
+        char[] arr = "НЛТУ, ІДКТД, ІСТ-21, Інженер ПЗ".toCharArray();
+        String str1 = new String(arr, 0, 19);
+        String str2 = new StringBuilder(str1).reverse().toString(); //У String нема аналогічного методу.
+        System.out.println(str2);
+        String str3 = str1.toUpperCase();
+        System.out.println("str3 is equal to str1 - " + str3.equals(str1));
+        System.out.println(str1.substring(6, 11)); // Назва факультету
+        String str4 = str1.concat(str3);
 
-            System.out.print("Введіть значення довжини та ширини прямокутника(вводити через пробіл): ");
-            rectangle = new Rectangle(sc.nextDouble(), sc.nextDouble());
+        System.out.printf("Letter I: first entry in str1 at index — %d%n", str1.indexOf('І'));
+        System.out.printf("Letter I: last entry in str1 at index — %d%n", str1.lastIndexOf('І'));
 
-            System.out.print("Введіть значення двох катетів трикутника(вводити через пробіл): ");
-            triangle = new Triangle(sc.nextDouble(), sc.nextDouble());
-
-            sc.close();
-            System.out.printf("Площа прямокутника: %.2f%n", rectangle.getArea());
-            System.out.printf("Площа трикутника: %.2f%n", triangle.getArea());
-        } catch (IllegalArgumentException e) {
-            System.out.println("Помилка: Сторони фігур не можуть набувати від'ємного значення!");
-        }
+        StringBuilder sb = new StringBuilder("Kryshtof Yurii Tarasovych, 16.01.2003");
+        sb.delete(sb.indexOf("16"), sb.indexOf("2")); //Видаляєм число і місяць народження
+        sb.append(", Rozvadiv");
+        sb.insert(sb.indexOf("Roz"), "male, ");
+        //System.out.println(sb);
+        System.out.println("sb length — " + sb.length());
+        sb.setLength(sb.indexOf(",")); //Скорочуємо рядок, залишаємо лише ПІБ
+        //System.out.println(sb);
+        System.out.println(new StringBuilder("Kryshtof").reverse());
     }
-
 }

@@ -1,4 +1,4 @@
-package Laba2;
+package Laba3;
 
 public interface Shape {
     double getArea();
