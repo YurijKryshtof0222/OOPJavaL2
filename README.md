@@ -10,7 +10,7 @@
 <h3>Лабораторна №3</h3>
 
 ![image](https://user-images.githubusercontent.com/105464154/223957230-471a1c58-ae47-4860-8f50-bc6e8a6e12cd.png)
-![image](https://user-images.githubusercontent.com/105464154/223963087-7458a42a-17ba-41b0-8153-2a431d5434ea.png)
+![image](https://user-images.githubusercontent.com/105464154/223981193-1ecb595b-efc6-4f46-b7ff-11499f7bd21f.png)
 
 <h2>Скріншоти демонстрації програм</h3>
 
