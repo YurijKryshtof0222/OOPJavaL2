@@ -12,6 +12,11 @@
 ![image](https://user-images.githubusercontent.com/105464154/223957230-471a1c58-ae47-4860-8f50-bc6e8a6e12cd.png)
 ![image](https://user-images.githubusercontent.com/105464154/223981193-1ecb595b-efc6-4f46-b7ff-11499f7bd21f.png)
 
+<h3>Лабораторна №4</h3>
+
+![image](https://user-images.githubusercontent.com/105464154/224017842-53e4f595-b59e-419d-81a4-0fa188f98a71.png)
+![image](https://user-images.githubusercontent.com/105464154/224017982-c83adbbf-2494-4cc6-97fe-b4ef888df98d.png)
+
 <h2>Скріншоти демонстрації програм</h3>
 
 <h3>До 2-ої лабораторної</h3>
@@ -21,3 +26,7 @@
 <h3>До 3-ої лабораторної</h3>
 
 ![image](https://user-images.githubusercontent.com/105464154/223962990-2f57ded1-5e13-4d98-9b7e-fad8cb3a1171.png)
+
+<h3>До 4-ої лабораторної</h3>
+
+![image](https://user-images.githubusercontent.com/105464154/224017671-0b805fe0-61e4-480f-9b58-aceb216a6d9b.png)
