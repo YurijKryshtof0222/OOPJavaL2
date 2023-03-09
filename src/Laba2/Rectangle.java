@@ -1,6 +1,6 @@
 package Laba2;
 
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
     private double a;
     private double b;
 
@@ -13,7 +13,7 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    double getArea() {
+    public double getArea() {
         return a * b;
     }
 

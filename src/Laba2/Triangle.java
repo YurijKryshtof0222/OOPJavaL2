@@ -1,6 +1,6 @@
 package Laba2;
 
-public class Triangle extends Shape{
+public class Triangle implements Shape{
     private double c;
     private double d;
 
@@ -13,7 +13,7 @@ public class Triangle extends Shape{
     }
 
     @Override
-    double getArea() {
+    public double getArea() {
         return c * d / 2;
     }
 
