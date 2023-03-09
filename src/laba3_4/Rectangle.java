@@ -7,8 +7,8 @@ public class Rectangle implements Shape {
     private double b;
 
     {
-        a = 8;
-        a = 6;
+        a = 1;
+        a = 1;
     }
 
     public Rectangle() {}

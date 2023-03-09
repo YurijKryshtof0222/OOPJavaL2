@@ -8,8 +8,8 @@ public class Triangle implements Shape {
     private double hypotenuse;
 
     {
-        c = 8;
-        d = 6;
+        c = 1;
+        d = 1;
 
         updateHypotenuse();
     }
