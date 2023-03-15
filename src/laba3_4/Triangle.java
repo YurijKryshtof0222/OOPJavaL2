@@ -2,7 +2,7 @@ package laba3_4;
 
 import java.util.Objects;
 
-public class Triangle implements Shape {
+public class Triangle extends Shape {
     private double c;
     private double d;
     private double hypotenuse;

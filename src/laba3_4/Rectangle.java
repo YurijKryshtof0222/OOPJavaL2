@@ -2,7 +2,7 @@ package laba3_4;
 
 import java.util.Objects;
 
-public class Rectangle implements Shape {
+public class Rectangle extends Shape {
     private double a;
     private double b;
 
